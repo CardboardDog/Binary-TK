@@ -4,8 +4,8 @@
 3. Create a new file in your project 
 4. Import the package:
 Python:
-``import BinaryTK.*``
+``import BinaryTK``
 C++/C:
-``#include "BinaryTK/*"``
+``#include "BinaryTK"``
 1. Test the file you created.
 2. You're done!
