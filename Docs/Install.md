@@ -1,4 +1,4 @@
-##Installing
+## Installing
 1. Download the "BinaryTK" folder that corresponds with your programming language
 2. Drag the "BinaryTK" folder you just downloaded into your project.
 3. Create a new file in your project 
