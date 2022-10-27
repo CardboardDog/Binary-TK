@@ -1,6 +1,6 @@
-import BinaryTK.Bin as Binary
-import BinaryTK.Char as ASCII
-print(Binary.Encode(64))
-print(Binary.Decode("10111"))
-print(ASCII.GetBin("A"))
-print(ASCII.GetChar("1000010"))
+import BinaryTK.Integer as Binary
+import BinaryTK.Character as ASCII
+print(Binary.IntToBin(64))
+print(Binary.BinToInt("10111"))
+print(ASCII.CharToBin("A"))
+print(ASCII.BinToChar("1000010"))

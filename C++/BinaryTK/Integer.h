@@ -1,9 +1,9 @@
 #include <iostream>
 #include <bitset>
 using namespace std;
-#ifndef Bin
-#define Bin
-    int Decode(string Dat){
+#ifndef Integer
+#define Integer
+    int BinToInt(string Dat){
         string newdat = string(Dat.rbegin(),Dat.rend());
         //cout << newdat << endl;
         int multiplyer = 1;
@@ -16,7 +16,7 @@ using namespace std;
         //cout << newdat;
         return res;
     }
-    string Encode(int Dat){
+    string IntToBin(int Dat){
         std::bitset<16>newdat(Dat);
         //std::cout << newdat << "\n";
         return newdat.to_string();

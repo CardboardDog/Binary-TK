@@ -1,13 +1,13 @@
-#include "BinaryTK/Bin.h"
+#include "BinaryTK/Integer.h"
 #include <iostream>
-#include "BinaryTK/Char.h"
+#include "BinaryTK/Character.h"
 using namespace std;
 int main(){
     string bina = "0000000001000001";
-    string bin = Bin::Encode(65);
-    int reg = Bin::Decode(bina);
+    string bin = Integer::IntToBin(65);
+    int reg = Integer::BinToInt(bina);
     cout << "Encoded: " << bin << endl;
     cout << "Decoded: " << reg << endl;
-    cout << "Character: " << Char::GetChar(bin) << endl;
-    cout << "Binary : " << Char::GetBin('A') << endl;
+    cout << "Character: " << Character::BinToChar(bin) << endl;
+    cout << "Binary : " << Character::CharToBin('A') << endl;
 }

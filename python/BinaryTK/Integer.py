@@ -1,4 +1,4 @@
-def Encode(Binary):
+def IntToBin(Binary):
     newbin = bin(Binary)
     res = ""
     c=0
@@ -8,7 +8,7 @@ def Encode(Binary):
                 res = res + i
         c+=1
     return res
-def Decode(Bin):
+def BinToInt(Bin):
     newbin = "".join(reversed(str(Bin)))
     res = 0
     mult = 1
