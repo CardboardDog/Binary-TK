@@ -1,4 +1,4 @@
-#Using Integers
+# Using Integers
 First import BinaryTK:<br>
 ``>>> import BinaryTK``
 Now that we have imported let's get a binary string.<br>
