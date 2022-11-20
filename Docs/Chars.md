@@ -1,4 +1,4 @@
-##Encoding Chars
+## Encoding Chars
 As always, import BinaryTK:
 ``>>> import BinaryTK``<br>
 Now, lets get the ASCII number of the letter "A" in binary form.
